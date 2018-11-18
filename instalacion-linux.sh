@@ -22,6 +22,11 @@ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.de
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 rm google-chrome-stable_current_amd64.deb
 
+#### Slack
+wget -c https://downloads.slack-edge.com/linux_releases/slack-desktop-3.3.3-amd64.deb
+sudo apt install ./slack-desktop-3.3.3-amd64.deb -y
+rm slack-desktop-3.3.3-amd64.deb
+
 #### qBittorrent
 #sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
 #sudo apt-get update
