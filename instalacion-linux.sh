@@ -27,6 +27,10 @@ wget -c https://downloads.slack-edge.com/linux_releases/slack-desktop-3.3.3-amd6
 sudo apt install ./slack-desktop-3.3.3-amd64.deb -y
 rm slack-desktop-3.3.3-amd64.deb
 
+#### NPM y NodeJS
+sudo apt install nodejs npm -y
+
+
 #### qBittorrent
 #sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
 #sudo apt-get update
