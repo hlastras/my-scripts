@@ -34,6 +34,7 @@ sudo apt install nodejs npm -y
 wget -c https://release.gitkraken.com/linux/gitkraken-amd64.deb
 sudo apt install ./gitkraken-amd64.deb -y
 rm gitkraken-amd64.deb
+#sudo apt install libgnome-keyring-common libgnome-keyring-dev #Si no arranca hay que instalar eso
 
 #### qBittorrent
 #sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
