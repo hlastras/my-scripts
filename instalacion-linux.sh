@@ -30,6 +30,10 @@ rm slack-desktop-3.3.3-amd64.deb
 #### NPM y NodeJS
 sudo apt install nodejs npm -y
 
+#### GitKraken
+wget -c https://release.gitkraken.com/linux/gitkraken-amd64.deb
+sudo apt install ./gitkraken-amd64.deb -y
+rm gitkraken-amd64.deb
 
 #### qBittorrent
 #sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
