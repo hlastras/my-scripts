@@ -40,3 +40,17 @@ rm gitkraken-amd64.deb
 #sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
 #sudo apt-get update
 sudo apt-get install qbittorrent
+
+
+#### Eclipse
+#TODO cambiar a la ruta mas actual, no tienen una ruta latest :(
+wget -c https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2018-12/R/eclipse-jee-2018-12-R-linux-gtk-x86_64.tar.gz&mirror_id=96
+#TODO terminar si es posible
+
+
+#### TLDR
+sudo npm install -g tldr
+
+
+#Quitar que las carpetas se abran con un click
+gsettings set io.elementary.files.preferences single-click false
