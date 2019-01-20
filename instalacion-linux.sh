@@ -52,5 +52,8 @@ wget -c https://www.eclipse.org/downloads/download.php?file=/technology/epp/down
 sudo npm install -g tldr
 
 
-#Quitar que las carpetas se abran con un click
+# Quitar que las carpetas se abran con un click
 gsettings set io.elementary.files.preferences single-click false
+
+# Arreglar la hora para que sea igual en linux y windows
+sudo timedatectl set-local-rtc 1
