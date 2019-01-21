@@ -57,3 +57,8 @@ gsettings set io.elementary.files.preferences single-click false
 
 # Arreglar la hora para que sea igual en linux y windows
 sudo timedatectl set-local-rtc 1
+
+
+##TODO ATAJOS para android studio y eclipse
+# /home/hector/.gnome/apps/jetbrains-idea.desktop
+# /home/hector/.local/share/applications/jetbrains-idea.desktop
